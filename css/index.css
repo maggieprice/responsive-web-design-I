@@ -219,3 +219,10 @@ width:50%;
 	list-style-type: disc;
 	margin-left: 3rem;
 }
+
+/* responsive css */
+@media (max-width: 800px){
+body {
+   background-color: orange;
+}
+}
