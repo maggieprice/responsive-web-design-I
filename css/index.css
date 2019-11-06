@@ -59,22 +59,28 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 /* my code starts here */
-nav { 
+
+.toppart { 
 	display: flex;
-	justify-content:space-between;
-    margin:3%;
+	justify-content:center space-evenly;
+	margin:3%;
+	align-items: center;
+	
 }
 
 nav a{
 	color:gray;
 	text-decoration: none;
+	margin:2rem;
+	
 }
 
 .top {
 	display: flex;
 	justify-content: space-around;
 	margin:7px;
-    border-bottom:.1rem solid black;
+	border-bottom:.1rem solid black;
+	border-width: 80%;
     padding-bottom: 2.5rem;
     text-align:center;
 }
@@ -107,6 +113,9 @@ flex-direction:column;
 .first {
 	display:flex;
 	margin-top:5%;
+	padding: 4%;
+	display: flex;
+	justify-content: space-between;
 	
 }
 
@@ -227,7 +236,7 @@ width:50%;
 		display:flex;
 		flex-direction:column-reverse;
 		align-items: center;
-		
+		margin:0;
 	} 
 	.logo {
 		width:10rem;
@@ -243,6 +252,9 @@ width:50%;
 	}
 	.left{
 		display:none;
+	}
+	#things img{
+		width:100%;
 	}
 	}
 	
@@ -266,8 +278,9 @@ width:50%;
 		border-top: 1px solid gray;
 		border-bottom: 1px solid gray;
 		padding:1%;
-		width: 40rem;
+		width: 50rem;
 		align-items: center;
+		margin:0;
 	}
 
 	.top{
@@ -281,6 +294,7 @@ width:50%;
 	.first, .second{
 		display: flex;
 		flex-direction: column;
+		
 	}
 	
 	}
