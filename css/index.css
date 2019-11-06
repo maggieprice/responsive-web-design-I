@@ -222,7 +222,17 @@ width:50%;
 
 /* responsive css */
 @media (max-width: 800px){
-body {
-   background-color: orange;
-}
-}
+	.toppart{
+		display:flex;
+		flex-direction:column-reverse;
+		align-items: center;
+		
+	} 
+	.logo {
+		width:10rem;
+	}
+	nav a{
+		width: 8rem;
+		justify-content: space-between;
+	}
+	}
