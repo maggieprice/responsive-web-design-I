@@ -106,7 +106,8 @@ flex-direction:column;
 
 .first {
 	display:flex;
-    margin:3%;
+	margin-top:5%;
+	
 }
 
 .pix {
@@ -220,7 +221,7 @@ width:50%;
 	margin-left: 3rem;
 }
 
-/* responsive css */
+/* responsive css tablet view*/
 @media (max-width: 800px){
 	.toppart{
 		display:flex;
@@ -243,5 +244,44 @@ width:50%;
 	.left{
 		display:none;
 	}
+	}
+	
+	/* responsive css mobile view*/
+@media (max-width: 500px){
+	.toppart{
+		display:flex;
+		flex-direction:column-reverse;
+		align-items: center;
+	} 
+	.logo {
+		width:10rem;
+	}
+	 nav{
+		 display: flex;
+		flex-direction: column;
+		text-align: center;
+		
+	}
+	nav a {
+		border-top: 1px solid gray;
+		border-bottom: 1px solid gray;
+		padding:1%;
+		width: 40rem;
+		align-items: center;
+	}
+
+	.top{
+		display: flex;
+		justify-content: center;
+	
+	}
+	.left{
+		display:none;
+	}
+	.first, .second{
+		display: flex;
+		flex-direction: column;
+	}
+	
 	}
 	
